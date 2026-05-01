@@ -121,3 +121,16 @@ footer {
     color: #4CAF50;
     font-size: 18px;
 }
+.socials {
+    margin-top: 10px;
+}
+
+.socials a {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #4CAF50;
+}
+
+.socials a:hover {
+    color: #2e7d32;
+}
