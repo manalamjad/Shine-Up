@@ -126,3 +126,59 @@ footer {
     color: #4CAF50;
     font-size: 18px;
 }
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact h1 {
+    font-size: 35px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+/* Contact Info */
+.contact-info {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+/* Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #2E7DFF;
+}
